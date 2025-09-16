@@ -1,0 +1,121 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.fcontainer{
+    display: flex;
+    /* justify-content: center;
+    align-items:flex-start; */
+    width: 100%;
+    height: 100vh;
+    background-color:skyblue;
+    position: sticky;
+    margin-top: 0px;
+    background-image: url(bg-gen\ 7\ jkt48.jpg);
+    background-position: center;
+    background-size:cover;
+}
+.bungkus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(144, 144, 144);
+    border: none;
+    border-radius: 5px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius:none ;
+    box-shadow:0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    position: fixed;
+    background:rgba(0, 0, 0, 0.3);
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+}
+.firstname{
+color: rgb(255, 255, 255);
+font-size: 30pt;
+font-weight: bold;
+background-color:red;
+border: white solid;
+padding : 10px;
+margin-left: -1px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.lastname{
+font-weight: 00;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation >li{
+    list-style-type: none;
+    padding: 20px;
+    font-weight: bold;
+}
+.navigation > li > a {
+    font-size: 21px;
+    text-decoration: none;
+}
+.active-1{
+background-color: crimson;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 5px;
+}
+.active{
+background-color: white;
+color: crimson;
+padding: 15px;
+border: none;
+border-radius: 5px;
+}
+.active-3{
+background-color: crimson;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 5px;
+}
+.navigation>li>a:hover {
+color: crimson;
+transition: all .4s ease-in-out;
+}
+.navigation .active:hover {
+color: white;
+transition: all .4s ease-in-out;
+}
+.navigation > li > img {
+width: 70px;
+height: 69px;
+padding-top: 4px;
+border-radius: 15px;
+}
+.navigation > li > img:hover {
+width: 85px;
+height: 84px;
+border-radius: 25px;
+transition: all .4s ease-in-out;
+}
+
+.container1{
+    background-color: rgba(128, 128, 128, 0.518);
+}
+
+.audio{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

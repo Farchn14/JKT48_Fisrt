@@ -1,0 +1,19 @@
+.back-1{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.navigation{
+    list-style-type: none;
+} 
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .4s ease-in-out;
+    }
+    .navigation .active:hover {
+    color: white;
+    transition: all .4s ease-in-out;
+    }   
